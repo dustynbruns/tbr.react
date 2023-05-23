@@ -1,0 +1,24 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    width: 35%;
+    padding: 20px 0;
+  }
+
+  .carousel .thumbs {
+    display: flex;
+    justify-content: center;
+  }  
+
+  .carousel .slide {
+    background: none;
+    justify-content: center;
+  }
+  
+  .carousel .legend {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    align-content: center;
+  }
+  
