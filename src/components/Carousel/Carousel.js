@@ -8,7 +8,7 @@ const CarouselComponent = () => {
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const response = await fetch('http://localhost:5000/data/products');
+      const response = await fetch('http://localhost:4000/data/products');
       const data = await response.json();
       setProducts(data);
     };
